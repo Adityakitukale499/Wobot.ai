@@ -13,6 +13,12 @@
   padding: 35px;
 }
 
+.error{
+  color: red;
+  /* width: 80%;
+  text-align: left; */
+}
+
 .foot{
   margin: 13px;
 }
@@ -76,7 +82,7 @@ button:hover {
 .location {
   padding:15px 0px;
   margin-top: -15px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   display: flex;
   justify-content: space-between;
 }
@@ -100,14 +106,15 @@ button:hover {
 
 @media screen and (max-width: 550px) {
   .form {
-    width: 85%;
+    width: 95%;
   }
 
   .ImgContainer{
     margin-left: 0;
   }
   .form_container {
-    width: 100%;
+    max-width: 100%;
+    padding:0 15px;
   }
 }
 
